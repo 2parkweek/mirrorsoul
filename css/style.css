@@ -46,7 +46,8 @@ header {
 
 header img {
   display: inline-block;
-  height: 70px;
+  height: 10vw;
+  max-height: 70px;
   padding-top: 10px;
 }
 
@@ -63,7 +64,7 @@ header nav {
 header nav ul li {
   display: inline-block;
   vertical-align: top;
-  font-size: 13px;
+  font-size: 1.5vw;
 }
 header nav ul li a {
   display: block;
