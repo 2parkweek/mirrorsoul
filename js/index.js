@@ -43,10 +43,10 @@ function playPauseVideo(slick, control){
   } else if (slideType === "youtube") {
     switch (control) {
       case "play":
-        postMessageToPlayer(player, {
-          "event": "command",
-          "func": "mute"
-        });
+        // postMessageToPlayer(player, {
+        //   "event": "command",
+        //   "func": "mute"
+        // });
         postMessageToPlayer(player, {
           "event": "command",
           "func": "playVideo"
