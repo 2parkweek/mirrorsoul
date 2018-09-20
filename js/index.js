@@ -102,6 +102,7 @@ function resizePlayer(iframes, ratio) {
 // DOM Ready
 $(function() {
   // Initialize
+  $("header").load("header.html");
   slideWrapper.on("init", function(slick){
     slick = $(slick.currentTarget);
     setTimeout(function(){
